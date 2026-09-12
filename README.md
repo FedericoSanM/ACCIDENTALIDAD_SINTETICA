@@ -73,7 +73,6 @@ ACCIDENTALIDAD_SINTETICA/
 └── README.md
 ```
 
-```markdown
 ### Descripción de las carpetas
 
 | Carpeta | Contenido |
