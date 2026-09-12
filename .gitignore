@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Carpetas
+data/sample/
+data/dirty/
+resultados/
+notebooks/
+.pytest_cache/
+.vscode/
+
+# Archivos del entorno
+.env
