@@ -329,6 +329,13 @@ del dataset.
 El informe no constituye una segunda suite de pruebas ni reemplaza las
 pruebas automatizadas ejecutadas mediante pytest.
 
+### Nota
+
+Tanto la carpeta `DATA` y sus subcarpetas, `SAMPLE` y `DIRTY`, como
+`RESULTADOS` se crean una vez se ejecute el generador para no cargar
+carpetas vacías al repositorio; sin embargo, hacen parte de la estructura
+del proyecto.
+
 ## Datos sintéticos
 
 Los datos generados por el proyecto son completamente sintéticos y no
@@ -469,7 +476,7 @@ probarse diferentes soluciones de datos.
 
 ## Licencia
 
-Este proyecto se distribuirá bajo los términos de la licencia MIT.
+Este proyecto se distribuye bajo los términos de la licencia MIT.
 
 La licencia MIT permite utilizar, copiar, modificar, distribuir y
 reutilizar el código del proyecto, sujeto a las condiciones establecidas
@@ -478,9 +485,6 @@ en dicha licencia.
 El proyecto utiliza únicamente datos sintéticos generados por el propio
 sistema. No se incluyen datos personales ni registros reales de
 trabajadores o accidentes.
-
-El archivo `LICENSE` se incorporará al repositorio antes de la publicación
-de la versión correspondiente.
 
 ## Uso de inteligencia artificial
 
